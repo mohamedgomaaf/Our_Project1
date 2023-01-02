@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+    <!-- Render All Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Template CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<?php
+include('config.php');
+?>
+
+<!-- start top_nav -->
+<div class="top_nav">
+    <div class="container">
+        <div class="left_nav">
+            <i class="fa-solid fa-location-arrow"></i>
+            <p>Our Location</p>
+            <i class="fa-solid fa-user"></i>
+            <p> ellethemes@gmail.com</p>
+        </div>
+        <div class="right_nav">
+            <ul class="text_right_nav">
+                <li><a href="">Support Center</a></li>
+                <li><a href="">My Account</a></li>
+                <li><a href="">Pricing</a></li>
+                <ul class="text2_right_nav">
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></i></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></i></li>
+                    <li><a href=""><i class="fa-regular fa-envelope"></i></i></a></i></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></i></li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- end top_nav -->
+<!-- start logo -->
+<div class="simple">
+    <div class="container">
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <ul>
+            <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="card.php"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li class="not_1"> <a href="index-.php">login</a></li>
+        </ul>
+    </div>
+</div>
+<!-- end logo -->
+<!-- start menu -->
+<div class="menu">
+    <div class="container">
+        <ul>
+            <li><a href="">DEMOS</a></li>
+            <li><a href="">PAGES</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">PORTFOLIO</a></li>
+            <li><a href="">FEATURES</a></li>
+            <li><a href="">ELEMENTS</a></li>
+            <li><a href="">SHOP</a></li>
+        </ul>
+    </div>
+</div>
+<!-- end menu -->
+<!-- start master photo -->
+<div class="master_photo">
+     <div class="container"> 
+        <div class="image">
+            <img src="images/photo1.png" alt="">
+        </div>
+    </div>
+</div>
+<!-- end master photo -->
+<!-- start add -->
+<div class="ad">
+    <div class="container">
+        <div class="box">
+            <div class="image"><img src="images/ad3.jpg" alt=""></div>
+            <div class="text_box">
+                <ul>
+                    <li><h3>Category</h3></li>
+                    <li><h3>Handbags</h3></li>
+                    <li><a href="" class="details"><details>
+                        <summary>Read More</summary>
+                        <p>
+                           regardless of the type of product you decide to sell, there is somethink in common in any market , both online and physical: a good promotion is essentialfor your brand to be Know, in a way, this is true
+                       </p>
+                         </details></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image"><img src="images/ad2.jpg" alt=""></div>
+            <div class="text_box">
+                <ul>
+                    <li><h3>Category</h3></li>
+                    <li><h3>Parfums</h3></li>
+                    <li><a href=""><details>
+                     <summary>Read More</summary>
+                        <p>
+                          regardless of the type of product you decide to sell, there is somethink in common in any market , both online and physical: a good promotion is essentialfor your brand to be Know, in a way, this is true
+                        </p>
+                          </details></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image"><img src="images/ad1.jpg" alt=""></div>
+            <div class="text_box">
+                <ul>
+                    <li><h3>Category</h3></li>
+                    <li><h3>Watches</h3></li>
+                    <li><a href=""><details>
+                        <summary>Read More</summary>
+                        <p>
+                           regardless of the type of product you decide to sell, there is somethink in common in any market , both online and physical: a good promotion is essentialfor your brand to be Know, in a way, this is true
+                        </p>
+                         </details></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end ad -->
+<!-- start featured_products -->
+<div class="featuer">
+    <div class="container">
+        <div class="title">
+        <h1>featuer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, ab?</p>
+        </div>
+    </div>
+    </div> 
+    <div class="box-container">
+        <div class="container">
+            <div class="box">
+                <img src="images/product1.jpg" alt="">
+                <div class="btn">
+                    <button class="bon"><a href="val.php">add to card</a></button>
+                </div>
+                <div class="caption">
+                    <p>Carson Men's Automatic Chrono Rose Gold</p>
+                    <p> $975.00</p>
+                </div>
+            </div>  
+        <div class="box">
+            <img src="images/product2.jpg" alt="">
+            <div class="btn">
+                <button class="bon"> <a href="val.php">add to card</a></button>
+            </div>
+            <div class="caption">
+                <p>Bridgeport Automatic Chronograph</p>
+                <p><del>$2,125.00</del> $1,900.00</p>
+            </div>
+        </div>
+    
+    
+    <div class="box">
+      <img src="images/product3.jpg" alt="">
+      <div class="btn">
+        <button class="bon"> <a href="val.php">add to card</a></button>
+      </div>
+           <div class="caption">
+                    <p>Chronograph Stainless Steel Rose-Gold Tone</p>
+                    <p> $475.00</p>
+                </div>
+    </div>
+
+
+    <div class="box">
+      <img src="images/product4.jpg" alt="">
+      <div class="btn">
+        <button class="bon"> <a href="val.php">add to card</a></button>
+      </div>
+    <div class="caption">
+                    <p>PR 100 COSC AUTOMATIC</p>
+                    <p> $950.00</p>
+                </div>
+
+    </div>
+
+    <div class="box">
+      <img src="images/product5.jpg" alt="">
+      <div class="btn">
+     <button class="bon"> <a href="val.php">add to card</a></button>
+      </div>
+        <div class="caption">
+                    <p>Carson Men's Automatic Chrono Rose Gold</p>
+                    <p> $975.00</p>
+                </div>
+    </div>
+
+    <div class="box">
+      <img src="images/product6.jpg" alt="">
+      <div class="btn">
+     <button class="bon"> <a href="val.php">add to card</a></button>
+      </div>
+        <div class="caption">
+                    <p>Luxury Automatic</p>
+                    <p> $895.00</p>
+                </div>
+    </div>
+
+    <div class="box">
+      <img src="images/product7.jpg" alt="">
+      <div class="btn">
+        <button class="bon"> <a href="val.php">add to card</a></button>
+      </div>
+        <div class="caption">
+                    <p>PR QUARTZ LADY</p>
+                    <p> <del>$300.00</del> $250.00</p>
+                </div>
+    </div>
+
+    <div class="box">
+      <img src="images/product8.jpg" alt="">
+      <div class="btn">
+   <button class="bon"> <a href="val.php">add to card</a></button>
+      </div>
+        <div class="caption">
+                    <p>Carson Men's Automatic Chrono White Dial</p>
+                    <p> $895.00</p>
+                </div>
+    </div>
+
+    <div class="box">
+      <img src="images/product9.jpg" alt="">
+      <div class="btn">
+        <button class="bon"> <a href="val.php">add to card</a></button>
+      </div>
+        <div class="caption">
+                    <p>'Donna' Fragrance</p>
+                    <p> $130.00</p>
+                </div>
+    </div>
+
+      </div>
+      </div>
+<!-- end featured_products -->
+<!--start footer -->
+<div class="footer">
+    <div class="container">
+        <div class="box">
+            <ul>
+                <li><i class="fa-solid fa-download"></i></li>
+                <li><h4><a href="">Fast Delivery</a></h4></li>
+                <li><p>In et massa
+                     a massa egestas suscipit tincidunt ut est. Curabitur
+                      rutrum faucibus elit, at convallis diam mattis eget.</p></li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul>
+                <li><i class="fa-solid fa-snowflake"></i></li>
+                <li><h4><a href="">Free Returns</a></h4></li>
+                <li><p>In et massa
+                     a massa egestas suscipit tincidunt ut est. Curabitur
+                      rutrum faucibus elit, at convallis diam mattis eget.</p></li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul>
+                <li><i class="fa-regular fa-clock"></i></li>
+                <li><h4><a href="">Next Day Delivery</a></h4></li>
+                <li><p>In et massa
+                     a massa egestas suscipit tincidunt ut est. Curabitur
+                      rutrum faucibus elit, at convallis diam mattis eget.</p></li>
+            </ul>
+        </div>
+        <div class="box">
+            <ul>
+                <li><i class="fa-regular fa-heart"></i></li>
+                <li><h4><a href="">24/7 Support</a></h4></li>
+                <li><p>In et massa
+                     a massa egestas suscipit tincidunt ut est. Curabitur
+                      rutrum faucibus elit, at convallis diam mattis eget.</p></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--end footer -->
+<!-- start up to -->
+<div class="up_to">
+    <div class="container">
+        <p>
+            Up to 50% OFF! Get it before it's gone! 
+        </p>
+        <button>Shop Now ></button>
+    </div>
+</div>
+</body>
+</html>
